@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>guess correct number</title>
+</head>
+<body>
+  <h1>Guess the Number Game</h1>
+  <p>Guess a number between 1 to 99:</p>
+  <input type="number" id="guess" min="10" max="100" placeholder="1 to 99" style="width: 200px;">
+
+  <button onclick="checkGuess()">Submit Guess</button>
+  
+  <p id="message"></p>
+  <p id="chances"></p>
+  <p id="points"></p>
+  <p id="error-message"></p>
+  <button id="cbutton" class="cbutton"onclick="getHint()">Hint</button>
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
